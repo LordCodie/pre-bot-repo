@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.test.example
+!.env.example
+__pycache__/
+*.pyc
+node_modules/
+ml_service/artifacts/*
+!ml_service/artifacts/.gitkeep
+!ml_service/artifacts/active_model.json
+.venv/
+.pytest_cache/
